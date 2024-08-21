@@ -3,7 +3,7 @@ package com.javatechie.annotation;
 import javax.validation.Constraint;
 import javax.validation.Payload;
 import java.lang.annotation.*;
-
+//We are creating our custom annotation
 @Target({ElementType.FIELD,ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
